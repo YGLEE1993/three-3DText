@@ -2,7 +2,7 @@
 
 ![til](3DText-example.gif)
 
-## How to Load Textures & Add Geometry 
+## How to Load Font & Add Geometry 
 - FontLoader - A Class for loading a font in JSON format. Returns a Font, which is an array of Shapes representing the font. 
 - TextGeometry - A class for generating text as a single geometry. It is constructed by providing a string of text, and a hash of parameters consisting of a loaded Font and settings.
 
