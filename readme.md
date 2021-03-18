@@ -1,6 +1,6 @@
 # Three.js - 3DText (code-example)
 
-![til](3DText-example.gif);
+![til](3DText-example.gif)
 
 ## How to Load Textures & Add Geometry 
 - FontLoader - A Class for loading a font in JSON format. Returns a Font, which is an array of Shapes representing the font. 
@@ -11,7 +11,7 @@ import * as THREE from "three";
 const fontLoader = new THREE.FontLoader();
 fontLoader.load("/fonts/helvetiker_regular.typeface.json", (font) => {
   const textGeometry = new THREE.TextGeometry(
-    "Yugyeong's \n Three.js \n 3DText \n Example",
+    "Yugyeong",
     {
       font: font,
       size: 0.5,
